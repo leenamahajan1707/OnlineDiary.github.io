@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    
+   <title>Write New Entries</title>
+   <link rel="stylesheet" href="css/WriteNewEntries.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">  <!-- use for animation-->
+
+     <style>
+	 body{
+	  margin:0px;
+	 }
+	 .image{
+	  background-image:url("homepagebagr.jpeg");
+	  z-index:-1;
+	  content:"";
+	  height:100%;
+	  width:100%;
+	  position:fixed;
+	  background-size:cover;
+	  
+	 }
+     .container{
+	   display:grid;
+	   grid-template-areas:
+	   
+	   's s s s s s'
+	   'f f f f f f'
+	   't t t t t t'
+	   'ft ft ft ft ft ft ';
+	   grid-gap:0rem;
+       padding: 2px;
+	   margin:0px;
+	   width:100%;
+	   
+	   
+	 }
+	 .item1{
+	   grid-area:f;
+	  }
+	  .item2{
+	   grid-area:s;
+	  }
+	  .item3{
+	   grid-area:t;
+	  }
+	  .item4{
+	   grid-area:ft;
+	  }
+	  label{
+	    font-size:25px;
+		color:solid black;
+	  }
+	  
+	 </style>
+</head>
+<body>
+        
+       <div  class="container">
+         <div id="s" class="item2">
+			<nav>
+				<div class="logo"><h1 class="animate__animated animate__heartBeat"><img src="https://img.icons8.com/cotton/64/000000/book.png" height="50px"/>My Diary</h1></div>
+				<div class="menu">
+				   
+				   <a href="home.html" class="hoverclass">Home</a>
+				   <a href="WriteNewEntries.html" class="hoverclass">New Entry</a>
+				   <a href="myentries.html" class="hoverclass">My Entries</a>
+				   
+				   <a href="aboutUs.html" class="hoverclass">About</a>
+				   <a href="contactUs.html" class="hoverclass">Contact</a>
+				   <a href="index.html" class="btnone">logout</a>
+				</div>
+			 </nav>
+          </div>
+		  <div id="f" class="item1">
+		     <p class="animate__animated animate__bounce">Create your own diary here!</p>
+		  </div>
+	<div id="t" class="item3">
+		 <form action="myentries.html" method="post">
+		     <label for="appd">Select a date:</label>
+             <input class="adjust-date" type="date" id="appd" name="appd" >
+		      <br>
+			  <br>
+           <label for="appt">Select a time:</label>
+           <input class="adjust-time"type="time" id="appt" name="appt">
+		   <br>
+		   <br>
+		   <label for="title"> Title&emsp;&nbsp;&emsp;&nbsp;&nbsp;&nbsp; :</label>
+		   <input class="adjust-title"type="text" id="title" name="title" placeholder="Enter title"required>
+		   <br>
+		    
+			<p class="adjust-area">
+		   <label for="title">Entry &emsp;&emsp;:</label>
+		   <textarea  id="title" name="title" rows="10" cols="50" placeholder="Enter your notes here..." 
+		   style="border:2px solid green;"required></textarea>
+            </p>
+			<br>
+			
+			<input class="smt" type="submit" id="smt" value="Save entry">
+		</form>
+	  </div>
+	  <footer id="ft" class="item4">
+        <p>Contact information: daily diary</p>
+		<p>All Rights reserved &copy; cdac graduates</p>
+		<p>If you have any suggestions or problems with this 
+		   Internet diary, please let us know.</p>
+		   
+    </footer>  
+	</div>
+		
+         
+     
+ 
+   
+          
+</body>
+</html>
+ 

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>login page</title>
+	<link rel="stylesheet" href="login.css">
+	<style>
+		footer
+		{
+			background-color:DarkSalmon;
+			color:white;
+			padding:3px;
+			text-align:center;
+			margin-top:90px;
+		}
+		
+		
+		#aboutUsDiv
+		{
+			float:right;
+			margin-top:90px;
+			margin-right:300px;
+			
+		}
+	</style>
+</head>
+<body>
+	<form method="post" action="home.html"> 
+		<div id="imageDiv">
+			<header>
+				<img src="diary.jpg" alt="diary image" height="400px" width="1335px">
+			</header>
+		</div>
+		
+		<div id="aboutUsDiv">
+				<!--<iframe src="aboutUs.html"></iframe> -->
+				<h2>About Us </h2>
+				<p><b>this website is for personal online entries</br>
+						you can maintain your Daily Activities here</b></p>
+		</div>
+		
+		<div clas="login" id="loginDiv">
+			<h1>Login</h1>
+			<input type="text" name="uname" placeholder="Enter Username" required></br></br>
+			<input type="password" name="password" placeholder="Enter Password" required></br></br>
+			<div>
+				<button type="submit" >login</button>
+			</div>	
+		</div>
+		<div style="margin-left:150px">
+			<strong>Do you want to signUp?  <a href="register.html" > SignUp </a> </strong>
+		</div>
+		
+		<footer>
+			<p>Contact information: daily diary</p>
+			<p>All Rights reserved &copy; cdac graduates</p>
+		</footer>
+			
+	</form>
+</body>
+</html>
