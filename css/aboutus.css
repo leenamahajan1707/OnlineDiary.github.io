@@ -1,8 +1,9 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin:0px;
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 	font-family: 'Tenali Ramakrishna', sans-serif;
-  }  
+	}
 
 body{
 	width:100%;
@@ -28,13 +29,30 @@ nav{
 
 nav .logo
 {
+	margin-top: 1vh;
 	width: 25%;
 	font-size: 25px;
 	text-align: center;
 	font-weight: 900;
 	text-shadow: 2px 1px 5px black;
+	
 	letter-spacing: 2px;
 	font-family: 'Josefin Sans', sans-serif;
+	z-index: 1;}
+.img
+{
+	z-index: -1;
+	position: absolute;
+	margin-left: 10vw;
+}
+.text
+{
+	position: relative;
+	z-index: 1;
+	color: rgb(125, 253, 40);
+	font-weight: 900;
+	text-shadow: 2px 1px 5px black;
+	letter-spacing: 2px;
 }
 
 nav .menu{
@@ -94,7 +112,7 @@ nav .menu a{
   }
   
   .card {
-    dispaly:grid;
+    display:grid;
     margin:0 px;
     
   }

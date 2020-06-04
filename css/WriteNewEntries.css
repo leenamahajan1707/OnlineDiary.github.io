@@ -3,6 +3,7 @@
 	padding:0;
 	box-sizing: border-box;
 	font-family: 'Tenali Ramakrishna', sans-serif;
+	
 }
 body{
 	width:100%;
@@ -15,9 +16,9 @@ body{
 
 nav{
 	width:100%;
-	height:15vh;
-	background:rgba(0,0,0,0.3);
-	color: rgb(64, 231, 72);
+	height:18vh;
+	background:rgba(0,0,0,0.5);
+	
 	display:flex;
 	justify-content: space-between;
 	align-items: center;
@@ -28,14 +29,18 @@ nav{
 
 nav .logo
 {
+	margin-top: 1vh;
 	width: 25%;
 	font-size: 25px;
 	text-align: center;
 	font-weight: 900;
 	text-shadow: 2px 1px 5px black;
+	
 	letter-spacing: 2px;
 	font-family: 'Josefin Sans', sans-serif;
+	z-index: 1;
 }
+
 
 nav .menu{
 	width: 55%;
@@ -49,7 +54,7 @@ nav .menu{
 nav .menu a{
 	letter-spacing: 5px;
 	width:50%;
-	font-size: 18px;
+	font-size: 25px;
 	text-decoration:none;
 	color: cyan;
 	font-weight: 500;
@@ -58,10 +63,26 @@ nav .menu a{
 	
 }
 
+.img
+{
+	z-index: -1;
+	position: absolute;
+	margin-left: 10vw;
+}
+.text
+{
+	position: relative;
+	z-index: 1;
+	color: rgb(125, 253, 40);
+	font-weight: 900;
+	text-shadow: 2px 1px 5px black;
+	letter-spacing: 2px;
+}
+
 .menu .hoverclass:hover
 {
 	color: white;
-	font-size: 130%
+	font-size: 170%
 }
 .menu .btnone
 {
@@ -134,18 +155,18 @@ nav .menu a{
 .item1{
 	margin-top: 23vh;
 	margin-bottom: 10vh; 
- 	font-size: 40px;
+ 	font-size: 50px;
 	font-weight: 700;
 	letter-spacing: 3px;
 	text-shadow: 2px 1px 5px black;
 	text-align: center;
 	color: rgb(243, 232, 134);
-
+	
 
 }
 .item3{
 	background: rgba(0,0,0,0.3);
-	border:1.5px solid black;
+	border:1.5px solid wheat;
 	border-radius: 30px;
 	width:1000px;
 	height:580px;
@@ -162,8 +183,8 @@ nav .menu a{
 	margin-top:10px;
 	height:20px;
 	  width:300px;
-	   padding:10px;
-	 border-color:green;
+	   padding:20px;
+	   border: 1px solid rgb(110, 216, 248);
 	 font-size:20px;
 	 border-radius:12px;
 	  
@@ -171,19 +192,20 @@ nav .menu a{
 .adjust-time{
 	height:20px;
 	  width:300px;
-	   padding:10px;
-	  border-color:forestgreen;
+	   padding:20px;
+	   border: 1px solid rgb(110, 216, 248);
 	  font-size:12px;
 	  overflow:auto;
 	  border-radius:12px;
 	  margin-top:5px ;
 	  margin-bottom: 5px;
+
 }
 .adjust-title{
 	height:20px;
 	  width:300px;
-	   padding:10px;
-	  border-color:forestgreen;
+	   padding:20px;
+	   border: 1px solid rgb(110, 216, 248);
 	  font-size:20px;
 	  overflow:auto;
 	  border-radius:12px;
@@ -192,7 +214,7 @@ nav .menu a{
 }
 .adjust-area * {
   vertical-align: middle;
-  border-color:forestgreen;
+  /* border: 1px solid rgb(110, 216, 248); */
   border-radius:12px;
   
 }
@@ -200,11 +222,11 @@ nav .menu a{
 	height:50px;
 	  width:200px;
 	   padding:5px;
-	  border-color:forestgreen;
+	   border: 1px solid rgb(110, 216, 248);
 	  font-size:20px;
 	  overflow:auto;
 	  margin-left:130px;
-	  margin-top: 40px;
+	  margin-top: 10px;
 	  cursor:pointer;
 	  border-radius:12px;
 	  
@@ -212,6 +234,7 @@ nav .menu a{
 .smt:hover{
 	background-color:rgb(172, 25, 110);
 	color:wheat
+	
 }
 footer{
 	background:rgba(0,0,0,0.5);
@@ -223,4 +246,36 @@ footer{
 	justify-content: center;
 	align-items: center;
 	margin-top: 100px;
+	font-size: 20px;
 }
+
+input[type="submit"]
+  {
+      border: none;
+      padding: 7px 35px;
+      cursor: pointer;
+      outline: none;
+      background: #45f3ff;
+      color: black;
+      font-size: 30px;
+	  border-radius: 2px;
+  }
+
+input, 
+select, textarea {
+	width: 25vw;
+	height: 20vh;
+    padding: 12px;
+    border: 1px solid rgb(110, 216, 248);
+    margin-top: 10px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background: rgba(255, 255, 255, 0.3);
+    outline: none;
+    color: white;
+	font-size: 20px;
+  }
+
+  label{
+	  font-size: 70px;
+  }

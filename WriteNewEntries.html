@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head> 
     
    <title>Write New Entries</title>
    <link rel="stylesheet" href="css/WriteNewEntries.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">  <!-- use for animation-->
+   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">  <!--use for google font-->
+   <link href="https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap" rel="stylesheet">
+  
 
      <style>
 	 body{
@@ -59,7 +62,17 @@
        <div  class="container">
          <div id="s" class="item2">
 			<nav>
-				<div class="logo"><h1 class="animate__animated animate__heartBeat"><img src="https://img.icons8.com/cotton/64/000000/book.png" height="50px"/>My Diary</h1></div>
+				<div class="logo">
+					<h1 class="animate__animated animate__heartBeat">
+						<div class="img">
+							<img src="https://img.icons8.com/flat_round/64/000000/bookmark-book.png"/>
+						</div>
+						<div class="text">
+							My Diary
+						</div>
+						
+					</h1>
+				</div>
 				<div class="menu">
 				   
 				   <a href="home.html" class="hoverclass">Home</a>
@@ -68,7 +81,7 @@
 				   
 				   <a href="aboutus.html" class="hoverclass">About</a>
 				   <a href="contactUsHome.html" class="hoverclass">Contact</a>
-				   <a href="index.html" class="btnone">logout</a>
+				   <a href="index.html" class="btnone">Logout</a>
 				</div>
 			 </nav>
           </div>
@@ -77,22 +90,22 @@
 		  </div>
 	<div id="t" class="item3">
 		 <form action="myentries.html" method="post">
-		     <label for="appd">Select a date:</label>
+		     <label for="appd" style="font-size: 30px;">Select a date :  </label>
              <input class="adjust-date" type="date" id="appd" name="appd" >
 		      <br>
 			  <br>
-           <label for="appt">Select a time:</label>
+           <label for="appt" style="font-size: 30px;">Select a time :  </label>
            <input class="adjust-time"type="time" id="appt" name="appt">
 		   <br>
 		   <br>
-		   <label for="title"> Title&emsp;&nbsp;&emsp;&nbsp;&nbsp;&nbsp; :</label>
+		   <label for="title" style="font-size: 30px;"> Title : &emsp;&nbsp;&emsp;&nbsp;&nbsp;</label>
 		   <input class="adjust-title"type="text" id="title" name="title" placeholder="Enter title"required>
 		   <br>
 		    
 			<p class="adjust-area">
-		   <label for="title">Entry &emsp;&emsp;:</label>
+		   <label for="title" style="font-size: 30px;">  Entry :     &emsp;&emsp;</label>
 		   <textarea  id="title" name="title" rows="10" cols="50" placeholder="Enter your notes here..." 
-		   style="border:2px solid green;"required></textarea>
+		   required></textarea>
             </p>
 			<br>
 			

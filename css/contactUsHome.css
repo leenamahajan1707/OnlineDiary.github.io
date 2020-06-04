@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Tenali Ramakrishna', sans-serif;
   }
  
   body{
@@ -26,15 +27,34 @@
   
   
   nav .logo
-  {
-    width: 25%;
-    font-size: 25px;
-    text-align: center;
-    font-weight: 900;
-    text-shadow: 2px 1px 5px black;
-    letter-spacing: 2px;
-    font-family: 'Josefin Sans', sans-serif;
-  }
+{
+	margin-top: 1vh;
+	width: 25%;
+	font-size: 25px;
+	text-align: center;
+	font-weight: 900;
+	text-shadow: 2px 1px 5px black;
+	
+	letter-spacing: 2px;
+	font-family: 'Josefin Sans', sans-serif;
+  z-index: 1;}
+  
+.img
+{
+	z-index: -1;
+	position: absolute;
+	margin-left: 10vw;
+}
+.text
+{
+	position: relative;
+	z-index: 1;
+	color: rgb(125, 253, 40);
+	font-weight: 900;
+	text-shadow: 2px 1px 5px black;
+	letter-spacing: 2px;
+}
+
   
   nav .menu{
     width: 55%;
@@ -48,7 +68,7 @@
   nav .menu a{
     letter-spacing: 5px;
     width:40%;
-    font-size: 20px;
+    font-size: 25px;
     text-decoration:none;
     color: cyan;
     font-weight: 500;
@@ -86,7 +106,7 @@
 
    label{
     color: rgb(62, 255, 245);
-    font-size: 20px;
+    font-size: 25px;
   }
   
 
@@ -116,6 +136,7 @@ select, textarea {
     background: transparent;
     outline: none;
     color: white;
+    font-size: 20px;
     
   }
   
@@ -157,7 +178,7 @@ select, textarea {
     padding: 20px;
     background: rgba(0,0,0,0.3);
   }
-
+  
   footer{
     background:rgba(0,0,0,0.5);
     display: flex;
@@ -168,7 +189,9 @@ select, textarea {
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+    font-size: 20px;
   }
+  
   
 
  

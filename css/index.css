@@ -43,13 +43,30 @@ nav{
 
 nav .logo
 {
+	margin-top: 1vh;
 	width: 25%;
 	font-size: 25px;
 	text-align: center;
 	font-weight: 900;
 	text-shadow: 2px 1px 5px black;
+	
 	letter-spacing: 2px;
 	font-family: 'Josefin Sans', sans-serif;
+	z-index: 1;}
+.img
+{
+	z-index: -1;
+	position: absolute;
+	margin-left: 10vw;
+}
+.text
+{
+	position: relative;
+	z-index: 1;
+	color: rgb(125, 253, 40);
+	font-weight: 900;
+	text-shadow: 2px 1px 5px black;
+	letter-spacing: 2px;
 }
 
 nav .menu{
@@ -114,9 +131,10 @@ section .logo{
     text-align: center;
     color: rgb(64, 231, 72);
     font-weight: 900;
-    font-size: 35px;
-    text-shadow: 2px 1px 5px black;
-	letter-spacing: 2px;
+    font-size: 40px;
+    text-shadow: 2px 2px 5px black;
+    letter-spacing: 2px;
+    z-index: 1;
 }
 
 section pre{
@@ -132,6 +150,7 @@ section h2{
     
    text-align: center;
     align-items: center;
+    letter-spacing: 2px;
    
 }
 
@@ -233,10 +252,12 @@ section a{
     border:1px solid rgb(252, 251, 251);
     width: 70vw;
     text-align: center;
+    font-size: 20px;
   }
 
 footer{
-	background:rgba(0,0,0,0.5);
+    background:rgba(0,0,0,0.5);
+    font-size: 20px;
 	display: flex;
 	flex-direction: column;
 	color:rgb(255, 255, 255);

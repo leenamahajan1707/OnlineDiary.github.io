@@ -31,14 +31,32 @@ nav{
 
 nav .logo
 {
+	margin-top: 1vh;
 	width: 25%;
 	font-size: 25px;
 	text-align: center;
 	font-weight: 900;
 	text-shadow: 2px 1px 5px black;
+	
 	letter-spacing: 2px;
 	font-family: 'Josefin Sans', sans-serif;
+	z-index: 1;}
+.img
+{
+	z-index: -1;
+	position: absolute;
+	margin-left: 10vw;
 }
+.text
+{
+	position: relative;
+	z-index: 1;
+	color: rgb(125, 253, 40);
+	font-weight: 900;
+	text-shadow: 2px 1px 5px black;
+	letter-spacing: 2px;
+}
+
 
 nav .menu{
 	width: 55%;
@@ -136,4 +154,5 @@ footer{
 	justify-content: center;
 	align-items: center;
 	margin-top: 100px;
+	font-size: 20px;
 }
