@@ -2,7 +2,7 @@
 	margin:0;
 	padding:0;
 	box-sizing: border-box;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Tenali Ramakrishna', sans-serif;
 }
 body{
 	width:100%;
@@ -16,7 +16,7 @@ body{
 nav{
 	width:100%;
 	height:15vh;
-	background:rgba(0,0,0,0.4);
+	background:rgba(0,0,0,0.3);
 	color: rgb(64, 231, 72);
 	display:flex;
 	justify-content: space-between;
@@ -34,6 +34,7 @@ nav .logo
 	font-weight: 900;
 	text-shadow: 2px 1px 5px black;
 	letter-spacing: 2px;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 nav .menu{
@@ -41,23 +42,26 @@ nav .menu{
 	display:flex;
 	justify-content: space-around;
 	align-items: center;
+	
 
 }
 
 nav .menu a{
-	width:40%;
-	font-size: 20px;
+	letter-spacing: 5px;
+	width:50%;
+	font-size: 18px;
 	text-decoration:none;
 	color: cyan;
 	font-weight: 500;
 	letter-spacing: 1px;
 	transition:all .5s ease;
+	
 }
 
 .menu .hoverclass:hover
 {
 	color: white;
-	font-size: 150%
+	font-size: 130%
 }
 .menu .btnone
 {
