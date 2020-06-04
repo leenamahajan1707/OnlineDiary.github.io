@@ -1,0 +1,91 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/contactUsIndex.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">  <!--use for google font-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">  <!-- use for animation-->
+ <style>
+   .container{
+	   display:grid;
+	   grid-template-areas:
+	   
+	   'n n n'
+     'c c c'
+     'f f f'
+	   ;
+	   grid-gap:0rem;
+       padding: 2px;
+	   margin:0px;
+	   width:100%;
+	   
+	   
+	 }
+	 .navbar{
+	   grid-area:n;
+	  }
+	  .contact{
+	   grid-area:c;
+    }
+    .footer
+    {
+      grid-area:f;
+    }
+ </style>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="navbar">
+        <nav > 
+          <div class="logo"><h1 class="animate__animated animate__heartBeat"><img src="https://img.icons8.com/cotton/64/000000/book.png" height="50px"/>My Diary</h1></div>
+          <div class="menu">
+            <a href="index.html" class="hoverclass">Home</a>
+            <a href="index.html" class="hoverclass">About</a>
+            <a href="contactUsIndex.html" class="hoverclass">Contact</a>
+            <a href="index.html" class="hoverclass">login</a>
+            <a href="Register.html" class="hoverclass">register</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="contact">
+ 
+      <h1>Contact Us</h1>
+      <div class="row">
+        <div class="column">
+          <form action="index.html">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="eg. john" required >
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="eg. smith" required>
+            <label for="country">Country</label>
+
+            <select id="country" name="country" required>
+              <option value="india">India</option>
+              <option value="japan">Japan</option>
+              <option value="Germany">Germany</option>
+              <option value="china">China</option>
+              <option value="usa">USA</option>
+              <option value="france">france</option>
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write your comment here......" style="height:150px"required></textarea>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <p>Contact information: daily diary</p>
+		<p>All Rights reserved &copy; cdac graduates</p>
+   </footer> 
+
+  </div>
+</body>
+</html>
