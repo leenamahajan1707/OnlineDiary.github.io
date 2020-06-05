@@ -169,6 +169,10 @@ select, textarea {
     margin-left: 25vw;
   }
   
+  #country option{
+    color: black;
+    background: rgba(0,0,0,0.3);
+  }
   
   .column {
    
