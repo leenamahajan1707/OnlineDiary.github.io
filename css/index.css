@@ -134,7 +134,7 @@ main section
     border: 1px solid #fff;
     margin-top: 500px;
     background: rgba(0,0,0,0.4);
-    
+    margin-left: 10vw;
      padding: 50px;;
 }
 
@@ -246,13 +246,9 @@ section a{
     background: #03a9f4;
     padding: 8px 16px;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 20px;
 }
 
-#btn:hover
-{
-	font-size:170%;
-}
 
 .loginbox .inputbox input:focus ~ label,
 .loginbox .inputbox input:valid ~ label{
@@ -267,9 +263,9 @@ section a{
     font-family: 'Tenali Ramakrishna', sans-serif;
     margin-top: 850px;
     margin-left: 15vw;
-    padding: 100px;
+    padding: 70px;
     text-align: center;
-    background:rgba(0,0,0,0.3);
+    background:rgba(0,0,0,0.4);
     color:white;
     text-shadow: 2px 1px 5px black;
     letter-spacing: 1px;

@@ -6,7 +6,41 @@
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">  <!--use for google font-->
         <link href="https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">  <!-- use for animation-->
+      <style>
+        .container
+        {
+          display: grid;
+          grid-template-areas: 
+          'n n n n'
+          's s s s'
+          'l l l l'
+          'a a a a'
+          'f f f f';
+        }
 
+        #navbar
+        {
+          grid-area: n;
+        }
+
+        #section
+        {
+          grid-area: s;
+        }
+
+        #login
+        {
+          grid-area: l;
+        }
+        #about
+        {
+          grid-area: a;
+        }
+        #footer
+        {
+          grid-area: f;
+        }
+      </style>
     </head>
     <body>
         <div class="container">
