@@ -89,7 +89,7 @@ nav .menu{
 
 nav .menu a{
 	width:40%;
-	font-size: 25px;
+	font-size: 27px;
 	text-decoration:none;
 	color: cyan;
 	font-weight: 500;
@@ -100,7 +100,7 @@ nav .menu a{
 .menu .hoverclass:hover
 {
 	color: white;
-	font-size: 150%
+	font-size: 190%
 }
 
 
@@ -152,7 +152,7 @@ select, textarea {
   }
   
   input[type=submit]:hover {
-    background-color: rgb(206, 83, 83);
+    background-color:rgb(71, 255, 117);;
   }
   
  ::placeholder

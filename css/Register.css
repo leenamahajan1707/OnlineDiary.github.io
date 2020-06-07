@@ -78,7 +78,7 @@ nav .menu{
 
 nav .menu a{
 	width:40%;
-	font-size: 25px;
+	font-size: 27px;
 	text-decoration:none;
 	color: cyan;
 	font-weight: 500;
@@ -89,7 +89,7 @@ nav .menu a{
 .menu .hoverclass:hover
 {
 	color: white;
-	font-size: 150%
+	font-size: 190%
 } 
 
 
@@ -106,15 +106,17 @@ footer{
 	margin-top: 10rem;
 }
 
-   #first{
-   text-align:center;
-	margin-top:20vh;
+#first{
+	display: grid;
+   	text-align:center;
+	margin-top:-3vh;
 	background: rgba(0,0,0,0.5);
-	width:800px;
-	margin-left:300px;
+	width:700px;
+	margin-left:350px;
 	margin-right:300px;
 	height:600px;
 	color: white;
+	padding-top: 10vh;
    }
    input[type="text"],input[type="number"],input[type="email"],input[type="password"]
    {
@@ -126,6 +128,7 @@ footer{
 		text-shadow: 2px 1px 5px black;
 		letter-spacing: 2px;
 		
+		
    }
 
    label{
@@ -134,7 +137,9 @@ footer{
 	  }
 input{
 	font-size:20px;
-	background: rgba(255,255,255,0.1);	
+	background: rgba(255,255,255,0.1);
+	
+		
 }
 
 ::placeholder{
@@ -142,30 +147,30 @@ input{
 }
 	  
   #smt{
-     height:30px;
+     height:40px;
     width:100px; 
-    font-size:20px;
+    font-size:25px;
     color:black;
     background-color:#45f3ff;
     cursor:pointer;
     
    }
    #rst{
-    height:30px;
+    height:40px;
     width:100px; 
-    font-size:20px;
+    font-size:25px;
     color:rgb(0, 0, 0);
     background-color:#45f3ff;
     cursor:pointer;
     
    }
    #rst:hover{
-	 font-size:130%;
+	 font-size:150%;
      background-color:rgb(71, 255, 117);
 	 color:black;
    }
    #smt:hover{
-	   font-size:130%;
+	   font-size:150%;
      background-color:rgb(71, 255, 117);
 	 color:black;
    }
