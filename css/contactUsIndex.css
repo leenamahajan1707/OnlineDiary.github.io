@@ -62,7 +62,7 @@ nav .logo
 	letter-spacing: 2px;
 	font-family: 'Josefin Sans', sans-serif;
 	z-index: 1;}
-.img
+/* .img
 {
 	z-index: -1;
 	position: absolute;
@@ -76,7 +76,7 @@ nav .logo
 	font-weight: 900;
 	text-shadow: 2px 1px 5px black;
 	letter-spacing: 2px;
-}
+} */
 
 
 nav .menu{
@@ -179,7 +179,7 @@ select, textarea {
     width: 50%;
     margin-top: 6px;
     padding: 20px;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.6);
   }
 
   footer{
