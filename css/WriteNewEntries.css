@@ -80,7 +80,7 @@ nav .menu{
 nav .menu a{
 	letter-spacing: 5px;
 	width:50%;
-	font-size: 25px;
+	font-size: 27px;
 	text-decoration:none;
 	color: cyan;
 	font-weight: 500;
@@ -89,46 +89,40 @@ nav .menu a{
 	
 }
 
-.img
+nav .menu .entry1
 {
-	z-index: -1;
-	position: absolute;
-	margin-left: 10vw;
+	flex-basis: 540px;
 }
-.text
+
+nav .menu .entry2
 {
-	position: relative;
-	z-index: 1;
-	color: rgb(125, 253, 40);
-	font-weight: 900;
-	text-shadow: 2px 1px 5px black;
-	letter-spacing: 2px;
+	flex-basis: 540px;
 }
 
 .menu .hoverclass:hover
 {
 	color: white;
-	font-size: 170%
+	font-size: 190%
 }
 .menu .btnone
 {
-	border: 2px solid black;
+	/* border: 2px solid black; */
 	border-radius: 10px;
 	margin-right: 2vw;
 	text-align: center;
-	background: rgba(190, 174, 174,0.5);
-	font-size: 20px;
+	/* background: rgba(190, 174, 174,0.5); */
+	/* font-size: 25px; */
 	padding: 3px;
 	border-radius: 4px;
 	font-weight: 500;
 	letter-spacing: 1px;
-	color:rgb(77, 255, 187);
+	color:rgb(77, 255, 92);
 }
 
 .btnone:hover, .btnone:active{
-	background:darkslategray;
+	background:rgb(37, 139, 139);
 	color: white;
-	font-size: 150%
+	font-size: 190%
 }
 
 /* .item2{
@@ -305,3 +299,7 @@ select, textarea {
   label{
 	  font-size: 70px;
   }
+
+::placeholder{
+	color: white;
+}

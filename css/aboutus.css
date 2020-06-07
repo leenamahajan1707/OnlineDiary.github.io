@@ -91,7 +91,7 @@ nav .menu{
 nav .menu a{
 	letter-spacing: 5px;
 	width:40%;
-	font-size: 25px;
+	font-size: 27px;
 	text-decoration:none;
 	color: cyan;
 	font-weight: 500;
@@ -100,19 +100,29 @@ nav .menu a{
 	
 }
 
+nav .menu .entry1
+{
+	flex-basis: 450px;
+}
+
+nav .menu .entry2
+{
+	flex-basis: 450px;
+}
+
 .menu .hoverclass:hover
 {
 	color: white;
-	font-size: 170%
+	font-size: 190%
 }
 .menu .btnone
 {
-	border: 2px solid black;
+	/* border: 2px solid black; */
 	border-radius: 10px;
 	margin-right: 2vw;
 	text-align: center;
-	background: rgba(190, 174, 174,0.5);
-	font-size: 20px;
+	/* background: rgba(190, 174, 174,0.5);
+	font-size: 20px; */
 	padding: 3px;
 	border-radius: 4px;
 	font-weight: 500;
@@ -121,9 +131,9 @@ nav .menu a{
 }
 
 .btnone:hover, .btnone:active{
-	background:darkslategray;
+	background:rgb(37, 139, 139);
 	color: white;
-	font-size: 150%
+	font-size: 190%
 }
 
 
