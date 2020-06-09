@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>index</title>
+        <link rel="stylesheet" type="text/css" href="css/login.css">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">  <!--use for google font-->
+        <link href="https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">  <!-- use for animation-->
+      <style>
+        .container
+        {
+          display: grid;
+          grid-template-areas: 
+          'n n n n'
+          'h h h h'
+          'l l l l'
+          'f f f f';
+        }
+
+        #navbar
+        {
+          grid-area: n;
+        }
+
+        #heading
+        {
+          grid-area: h;
+        }
+
+        #login
+        {
+          grid-area: l;
+        }
+        
+        #footer
+        {
+          grid-area: f;
+        }
+      </style>
+    </head>
+    <body>
+        <div class="container">
+            <nav id="navbar"> 
+                <div class="logo">
+                    <div class="animate__animated animate__heartBeat">
+                      <div class="img">
+                        <img src="images/neonlogo.png" height="50px"/>
+                      </div>
+                      <div class="text">
+                        <h1>My Diary <br>
+                        <h6>my personal space....<br></h6></h1>
+                      </div>
+                    </div>
+                  </div>
+
+                <div class="menu">
+                   <a href="index.html" class="hoverclass">Home</a>
+                   <a href="index.html" class="hoverclass">About</a>
+                   <a href="contactUsIndex.html" class="hoverclass">Contact</a>
+                   <a href="#login" class="hoverclass">login</a>
+                   <a href="Register.html" class="hoverclass">register</a>
+               </div>
+            </nav>
+            <main>
+                <div id="heading">
+                    <h>Manage Your Diary.</h> 
+                    <span class="line"></span>
+                </div>
+                <div id="login" class="loginbox">
+                    <h1> Diary Login</h1>
+                        <form method="post" action="home.html">
+                            <div class="inputbox">
+                                <input type="=text" name="username" autocomplete="off" required>
+                                <label>username</label>
+                            </div>
+
+                            <div class="inputbox">
+                                <input type="=password" name="password" autocomplete="off" required>
+                                <label>password</label>
+                            </div>
+						    <div id="btn">
+                                <input type="submit" name="" value="login">
+							</div>	
+                        </form>
+						<div class="loginreg">
+						  Haven't Register Yet.....<a href="Register.html" class="reg">SignUp</a>
+						</div>
+                </div>						
+ 
+            </main>
+        
+
+        
+
+            <footer id="footer"> 
+                <p>Contact information: daily diary</p>
+                <p>All Rights reserved &copy; cdac graduates</p>
+                <p>If you have any suggestions or problems with this 
+            Internet diary, please let us know.</p>
+            </footer> 
+        </div> 
+    </body>
+</html>

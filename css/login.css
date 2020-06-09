@@ -1,44 +1,259 @@
-
-#loginDiv
-{
-	border:2px solid black ;
-	padding:50px;
-	margin-top:90px;
-	margin-left:30px;
-	width:378px;
-	border-radius:40px 40px 40px 40px;
-	text-align:center;
-
-
-}
-
-button
-{
-	
-	padding:4px 15px;
-	text-align:center;
-	
+*{
+	margin:0;
+	padding:0;
+    box-sizing: border-box;
+    font-family: 'Tenali Ramakrishna', sans-serif;
 	
 }
 
-img
-{
-	border-radius: 30px;
 
-]
-
-#aboutUsDiv
-{
-	float:right;
+body{
+	
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)), url("../images/diarynew.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-footer
+nav{
+	width:100%;
+	height:15vh;
+	background:rgba(0,0,0,0.7);
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+
+}
+
+nav .logo .img 
 {
+  margin-top: 2vh;
+  margin-left: 5vw;
+  position: absolute;
+}
+
+nav .logo .text {
+  position: relative;
+  margin-left: 5vw;
+  padding-top: 2vh;
+}
+
+  nav .logo .text h1{
+    /* margin-top: 5vh; */
+    color: #45f3ff;
+
+  }
+  
+  .logo .text h6{
+    color: #ffff;
+    margin-left: 1vw;
+    margin-top: -4vh;
+  }
+
+
+nav .logo
+{
+	margin-top: 1vh;
+	width: 25%;
+	font-size: 25px;
+	text-align: center;
+	font-weight: 900;
+	text-shadow: 2px 1px 5px black;
 	
+	letter-spacing: 2px;
+	font-family: 'Josefin Sans', sans-serif;
+	z-index: 1;}
+.img
+{
+	z-index: -1;
+	position: absolute;
+	margin-left: 10vw;
+}
+.text
+{
+	position: relative;
+	z-index: 1;
+	color: rgb(125, 253, 40);
+	font-weight: 900;
+	text-shadow: 2px 1px 5px black;
+	letter-spacing: 2px;
+}
+
+nav .menu{
+	width: 55%;
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+nav .menu a{
+	width:40%;
+	font-size: 27px;
+	text-decoration:none;
+	color: cyan;
+	font-weight: 500;
+	letter-spacing: 1px;
+	transition:all .5s ease;
+}
+
+.menu .hoverclass:hover
+{
+	color: white;
+	font-size: 190%
+}
+
+
+
+main{
+	width: 100%;
+	height: 85vh;
+	/* display: flex;
+	justify-content: center; */
+    align-items: center;
+    font-family: 'Tenali Ramakrishna', sans-serif;
 	
-	background-color:DarkSalmon;
-	color:white;
-	padding:3px;
-	text-align:center;
-	position:fixed;
+}
+
+main section 
+{
+    border: 1px solid #fff;
+    margin-top: 500px;
+    background: rgba(0,0,0,0.5);
+    margin-left: 10vw;
+     padding: 50px;
+}
+
+ 
+/* login div */
+ .loginbox{
+    margin-top: 25vh;
+    margin-bottom: 20rem;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 50px;
+    background: rgba(0,0,0,0.7);
+    border-radius: 10px;;
+ }
+
+ .loginbox h1{
+     margin-bottom: 30px;
+     color: #fff;
+     text-align: center;
+     text-transform: capitalize;
+     letter-spacing: 2px;
+ }
+
+ .loginbox .inputbox{
+     position: relative;
+ }
+
+ .loginbox .inputbox input{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+}
+
+.loginbox .inputbox label{
+    position:absolute;
+    top:0;
+    left: 0;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    font-size: 20px;
+    color: #fff;
+    transition: 0.5s;
+
+}
+
+.loginbox input[type="submit"]{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #03a9f4;
+    padding: 6px 25px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.loginbox input[type="submit"]:hover
+{
+    background: #03f467;
+    color: black;
+}
+
+
+.loginbox .inputbox input:focus ~ label,
+.loginbox .inputbox input:valid ~ label{
+    top :-20px;
+    left:0;
+    color:#03a9f4;
+    font-size: 20px;
+    
+}
+
+.loginreg
+{
+    color:white;
+    margin-top: 3vh;
+    letter-spacing: 2px;
+    font-size: 21px;
+    
+}
+
+.reg{
+    text-decoration:none;
+    color:cyan
+}
+.reg:hover{
+    color: yellowgreen;
+    font-size: 115%;
+}
+
+#heading
+{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 17vh;
+    margin-left: 29vw;
+    color: white;
+}
+
+.line{
+    position: relative;
+    bottom: 0;
+    display: block;
+    width: 250px;
+    margin-left: 9vw;
+    margin-top: -15px;
+    height: 2px;
+    background: #45f3ff;
+    transition: 0.5s;
+    border-radius: 2px;
+    pointer-events: none;
+}
+
+footer{
+    background:rgba(0,0,0,0.7);
+    font-size: 20px;
+	display: flex;
+	flex-direction: column;
+	color:rgb(255, 255, 255);
+	padding:10px;
+	height: 20vh;
+	justify-content: center;
+	align-items: center;
+	margin-top: 60vh;
 }

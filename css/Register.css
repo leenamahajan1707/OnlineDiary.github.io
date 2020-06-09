@@ -9,7 +9,7 @@
 body{
     width:100%;
 	height:100vh;
-	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url("../images/diarynew.jpg");
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)), url("../images/diarynew.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -95,7 +95,7 @@ nav .menu a{
 
 
 footer{
-	background:rgba(0,0,0,0.5);
+	background:rgba(0,0,0,0.7);
 	display: flex;
 	flex-direction: column;
 	color:rgb(255, 255, 255);
@@ -110,7 +110,7 @@ footer{
 	display: grid;
    	text-align:center;
 	margin-top:-3vh;
-	background: rgba(0,0,0,0.5);
+	background: rgba(0,0,0,0.6);
 	width:700px;
 	margin-left:350px;
 	margin-right:300px;
