@@ -8,30 +8,6 @@
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">  <!--use for google font-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">  <!-- use for animation-->
 
-   <style>
-	div.gallery {
-  margin: 4px;
-  border: 1px solid #ccc;
-  float: center;
-  display:inline-block;
-   margin-left:150px;
-  width: 250px;
-}
-
-div.gallery:hover {
-  border: 2px solid #777;
-}
-
-div.gallery img {
-  width:100px;
-  height:200px;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-</style>
 </head>
 <body>
     <header>
@@ -63,16 +39,13 @@ div.desc {
         </div>
       </div>
        
-        <div class="menu">
-           
-           <a href="home.html" class="hoverclass">Home</a>
-           <a href="WriteNewEntries.html" class="hoverclass , entry1">New Entry</a>
-           <a href="myentries.html" class="hoverclass , entry2">My Entries</a>
-           
-           <a href="aboutus.html" class="hoverclass">About</a>
-           <a href="contactUsHome.html" class="hoverclass">Contact</a>
-           <a href="index.html" class="btnone">Logout</a>
-        </div>
+      <div class="menu">
+        <a href="index.html" class="hoverclass">Home</a>
+        <a href="aboutus.html" class="hoverclass">About</a>
+        <a href="contactUsIndex.html" class="hoverclass">Contact</a>
+        <a href="login.html" class="hoverclass">login</a>
+        <a href="Register.html" class="hoverclass">register</a>
+    </div>
      </nav>
     </div>
     </header>
@@ -86,11 +59,13 @@ div.desc {
             It can be helpful to be able to document changes in your life.</p>
       </div>
 
-      <h2 style=" text-align:center"><b style="color:rgb(24, 245, 171);text-shadow: 2px 1px 5px black; font-size: 50px;">Our Team</b></h2>
+      <div id="team">
+          <h2 ><b >Our Team</b></h2>
+      </div>
 
 
 <div class="gallery">
-     <img src="images/aarti3.jpg" alt="Aarti" style="width:230px">
+     <img src="images/aarti3.jpg" alt="Aarti" style="width:170px">
       <div class="desc"> 
 	    <h2>Aarti Patil </h2>
 		<p>Web Designer</p>
@@ -99,7 +74,7 @@ div.desc {
 </div>
 
 <div class="gallery">
-   <img src="images/leena.jpg" alt="Leena" style="width:200px">
+   <img src="images/leena.jpg" alt="Leena" style="width:170px">
   <div class="desc"> 
   <h2>Leena Mahajan</h2>
   <p>Web Designer</p>
@@ -109,7 +84,7 @@ div.desc {
 
 <div class="gallery">
   
-    <img src="images/anjali.jpg" alt="Anjali" style="width:200px">
+    <img src="images/anjali.jpg" alt="Anjali" style="width:170px">
       <div class="desc">
         <h2>Anjali Badgujar</h2>
         <p>Web Designer</p>
