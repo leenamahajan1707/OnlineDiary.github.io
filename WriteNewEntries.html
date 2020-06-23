@@ -7,7 +7,8 @@
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">  <!-- use for animation-->
    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">  <!--use for google font-->
    <link href="https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap" rel="stylesheet">
-  
+   <script type="text/javascript" src="js/writentry.js"></script>
+
 
      <style>
 	 body{
@@ -101,11 +102,11 @@
 	<div id="t" class="item3">
 		 <form action="myentries.html" method="post">
 		     <label for="appd" style="font-size: 30px;">Select a date :  </label>
-             <input class="adjust-date" type="date" id="appd" name="appd" >
+             <input class="adjust-date" type="date" id="appd" name="appd" required>
 		      <br>
 			  <br>
            <label for="appt" style="font-size: 30px;">Select a time :  </label>
-           <input class="adjust-time"type="time" id="appt" name="appt">
+           <input class="adjust-time"type="time" id="appt" name="appt" required>
 		   <br>
 		   <br>
 		   <label for="title" style="font-size: 30px;"> Title : &emsp;&nbsp;&emsp;&nbsp;&nbsp;</label>
@@ -113,13 +114,13 @@
 		   <br>
 		    
 			<p class="adjust-area">
-		   <label for="title" style="font-size: 30px;"> &emsp; Entry :     &emsp;&emsp;</label>
-		   <textarea  id="title" name="title" rows="10" cols="50" placeholder="Enter your notes here..." 
+		   <label for="note" style="font-size: 30px;"> &emsp; Entry :     &emsp;&emsp;</label>
+		   <textarea  id="note" name="note" rows="10" cols="50" placeholder="Enter your notes here..." 
 		   required></textarea>
             </p>
 			<br>
 			
-			<input class="smt" type="submit" id="smt" value="Save entry">
+			<input class="smt" type="submit" id="smt" value="Save entry" onclick="displayDetails();">
 		</form>
 	  </div>
 	  <footer id="ft" class="item4">
