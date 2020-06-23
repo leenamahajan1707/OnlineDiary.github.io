@@ -33,6 +33,4 @@ window.addEventListener('load',() =>{
     
      row++;
 
-
-    
 })
