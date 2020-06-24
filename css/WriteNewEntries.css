@@ -176,16 +176,30 @@ nav .menu .entry2
 	margin-top: 23vh;
 	margin-bottom: 10vh; 
  	font-size: 50px;
-	font-weight: 700;
+	font-weight: 300;
 	letter-spacing: 3px;
 	text-shadow: 2px 1px 5px black;
 	text-align: center;
-	color: rgb(243, 232, 134);
+	color: wheat;
 	
 
 }
+
+.line{
+    position: relative;
+    bottom: 0;
+    display: block;
+    width: 250px;
+    margin-left: 34rem;
+    margin-top: -15px;
+    height: 2px;
+    background: #46FBDF;
+    transition: 0.5s;
+    border-radius: 2px;
+    pointer-events: none;
+}
 .item3{
-	background: rgba(0,0,0,0.4);
+	background: rgba(0,0,0,0.6);
 	border: 1px solid rgba(255, 255, 255,0.7);
 	border-radius: 30px;
 	width:750px;
